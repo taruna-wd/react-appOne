@@ -7,7 +7,7 @@ function Product({Title ,description , price}){
     return (
         <div className="product">
         <h3>{Title}</h3>  
-        <h5>{price.idx}</h5>
+        <h5>{price}</h5>
         <p>
            {description} 
         </p>
